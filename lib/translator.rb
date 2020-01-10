@@ -15,7 +15,7 @@ def load_library(file_path)
 
   }
 
-  new_hash.each do |key , value|
+  emoticons.each do |key , value|
 
     new_hash['get_emoticon'][value[0]] = emoticons[key][0]
     new_hash['get_meaning'][value[1]] = key
