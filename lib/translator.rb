@@ -6,7 +6,7 @@ require 'yaml'
 
 def load_library(file_path)
   # code goes here
-  emoticons = YAML.load("emoticons.yml")
+  emoticons = YAML.load(file_path)
 
   new_hash = {
      "get_meaning" => {},
