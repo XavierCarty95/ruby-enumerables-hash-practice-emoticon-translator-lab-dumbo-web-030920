@@ -1,7 +1,7 @@
 # require modules here
 
 require "yaml"
-require_relative "./lib/translator.rb"
+require_relative "./translator.rb"
 
 
 
