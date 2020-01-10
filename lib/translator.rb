@@ -9,10 +9,10 @@ def load_library(file_path)
   emoticons = YAML.load("emoticons.yml")
 
   new_hash = {
-     "get_meaning" => {}, 
+     "get_meaning" => {},
      "get_emoticon" => {}
 
-    
+
   }
 
   new_hash.each do |key , value|
