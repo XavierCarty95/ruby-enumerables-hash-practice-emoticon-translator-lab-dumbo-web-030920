@@ -30,4 +30,4 @@ def get_english_meaning
   # code goes here
 end
 
-load_library('translator.rb')
+load_library('./translator.rb')
