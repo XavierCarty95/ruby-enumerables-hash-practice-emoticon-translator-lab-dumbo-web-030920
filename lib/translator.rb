@@ -2,11 +2,23 @@
 
 require 'yaml'
 
-fish = YAML.load("emoticons.yml")
 
-def load_library
+
+def load_library(file_path)
   # code goes here
+  emoticons = YAML.load("emoticons.yml")
 
+  new_hash = {
+     "get_meaning" => {}, 
+     "get_emoticon" => {}
+
+    
+  }
+
+  new_hash.each do |key , value|
+
+    new_hash['get_emoticon'][value[0]] = emoticons[key][0]
+    new_hash['get_meaning'][value[1]] = key
 end
 
 def get_japanese_emoticon
