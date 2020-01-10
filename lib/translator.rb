@@ -32,5 +32,5 @@ def get_english_meaning(file_path , emoticon)
   # code goes here
   result = load_library(file_path)['get_message'][emoticon]
   result ? result : "Sorry it is not found"
-  
+
 end
