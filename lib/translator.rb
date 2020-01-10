@@ -33,4 +33,4 @@ def get_english_meaning
 end
 
 
-load_library('./emoticons.rb')
+load_library('emoticons.rb')
