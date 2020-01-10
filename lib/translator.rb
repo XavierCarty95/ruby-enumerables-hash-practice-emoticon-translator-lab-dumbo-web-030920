@@ -1,6 +1,7 @@
 # require modules here
 
 require "yaml"
+require_relative "./lib/translator.rb"
 
 
 
@@ -29,4 +30,4 @@ def get_english_meaning
   # code goes here
 end
 
-load_library('./lib/translator.rb')
+load_library('translator.rb')
